@@ -11,3 +11,6 @@ jobs:
         run: |
           echo hello github
           echo hello daejinoh.4
+      - name: step3
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
