@@ -13,4 +13,4 @@ jobs:
           echo hello daejinoh.5
       - name: step3
         run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
