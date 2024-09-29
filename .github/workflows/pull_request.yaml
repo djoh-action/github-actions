@@ -1,5 +1,5 @@
 name: pull-request-workflow
-on: pull_request
+on: pull_request #pull request가 발생했을 때 트리거가 된다.
 
 jobs:
   pull-request-job:
@@ -10,4 +10,4 @@ jobs:
       - name: step2
         run: |
           echo hello github
-          echo hello daejinoh
+          echo hello daejinohd
